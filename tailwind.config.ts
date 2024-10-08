@@ -12,7 +12,6 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         reve: "#ff0000",
-        "reve-light": "#ffaaaa",
       },
     },
   },
