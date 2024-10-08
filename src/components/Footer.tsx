@@ -17,13 +17,13 @@ export default function Footer() {
                         <h2 className="font-bold text-lg mb-2">Legal</h2>
                         <ul className="space-y-2 link-focus">
                             <li>
-                                <Link href="#" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Link 1</Link>
+                                <Link href="#">Link 1</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Link 2</Link>
+                                <Link href="#">Link 2</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Link 3</Link>
+                                <Link href="#">Link 3</Link>
                             </li>
                         </ul>
                     </div>
@@ -31,13 +31,13 @@ export default function Footer() {
                         <h2 className="font-bold text-lg mb-2">About</h2>
                         <ul className="space-y-2 link-focus">
                             <li>
-                                <Link href="#" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Link 1</Link>
+                                <Link href="#">Link 1</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Link 2</Link>
+                                <Link href="#">Link 2</Link>
                             </li>
                             <li>
-                                <Link href="#" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Link 3</Link>
+                                <Link href="#">Link 3</Link>
                             </li>
                         </ul>
                     </div>

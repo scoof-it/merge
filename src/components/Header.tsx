@@ -8,7 +8,7 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="sticky top-0 py-4 bg-white shadow bg-opacity-50 backdrop-blur">
+        <div className="z-50 sticky top-0 py-4 bg-white shadow bg-opacity-50 backdrop-blur">
         <div className="md:container mx-5 md:mx-auto flex items-center">
           <Link href="/">
             <Image src="/logotype.svg" alt="Merge" width={100} height={100} className="w-20" />
@@ -39,7 +39,7 @@ export default function Header() {
 
             <div
               className={`link-focus absolute right-0 mt-2 w-44 border bg-white shadow-lg rounded-lg transition-all duration-200 ease-in-out transform ${
-                isOpen ? "opacity-100 scale-100" : "opacity-0 scale-95"
+                isOpen ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none"
               }`}
             >
               <Link href="#" className="block px-4 py-2 flex items-center">
